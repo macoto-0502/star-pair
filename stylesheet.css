@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(218 241 254);
+    margin: 0px;    
+}
+
+header{
+    height: 80px;
+    background-color: rgb(64 106 182);
+}
+
+header h1{
+    /* width: 300px; */
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "HGP行書体";
+    font-weight: normal;
+}
+
+.main{
+    width: 1100px;
+    background-color: rgb(218 241 254);
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.card{
+    width: 150px;
+    margin: 15px;
+}
+
+p{
+    font-size: 100px;
+    font-family: "HGP行書体";
+    color: orange;
+    display: float;
+    position: absolute;
+    top: 200px;
+    left: 240px;
+    opacity: 0;
+}
